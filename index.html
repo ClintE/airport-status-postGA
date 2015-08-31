@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Airport info app</title>  
+    <!--Latest version of jquery as of 7-22-2015-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
+    <!-- Local javascript and css -->
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  test
+
+  <body>
+    <header>
+      <div class="header-box">
+        <p>AIRPORT TRAVEL PLANNER</p>
+        <p>Or: Will I be eating airport BBQ tonight</p>
+      </div>
+    </header> 
+
+    <div class="col-md-6 col-md-offset-1 blog-main main">
+
+      <button type="button" class="btn btn-warning btn-primary">CHECK AIRPORT
+      </button>
+
+      <form id="find">
+        <div class="form">  
+          <input type="text" id="airin" class="form-control col-lg-4" placeholder="Enter your IATA Airport Code here"/>
+        </div>
+      </form>
+
+      <div id="search-air" class="output"></div>
+    </div> 
+
+    <div class="col-md-3 col-md-offset-1 blog-sidebar">
+      <div id="search-air-previous" class="sidebar"></div>
+
+    </div>    
+
+  </body>
+
+</html>

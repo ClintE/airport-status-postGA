@@ -1,0 +1,48 @@
+button {
+	padding-top: 30em;
+}
+
+body {
+	background-color: #3887be;
+}
+.form {
+	padding-top: 4em;
+}
+header {
+	height: 9em;
+	background-color: #404040;
+	width: 100%;
+}
+.header-box {
+	margin-left: 0%;
+	margin-right: 0%;
+	color: #ebeff2;
+	font-family: verdana;
+	font-size: 2em;
+	padding-top: 1em;
+	text-align: center;
+}
+h3 {
+	color: #404040;
+}
+h4 {
+	font-family: arial;
+	color: #C3CED6;
+}
+.main {
+	padding-top: 4em;
+}
+.blog-sidebar {
+	padding-top: 4em;
+	border-color: red;
+	border-width: 4px;
+}
+#air-in {
+	float: left;
+}
+#search-air {
+	padding-top: 30px;
+}
+.form-control {
+	background-color: #ebeff2;
+}
