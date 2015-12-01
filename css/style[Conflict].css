@@ -1,16 +1,13 @@
 .btn {
-	padding-left: 1px;
+	padding-left: 1em;
 }
 .btn-primary {
 	padding-left: 1em;
+	padding-right: 1em;
 }
-button, input, optgroup, select, textarea  {
-	margin: 12px;
-	padding-left: 12px;
-}
+
 body {
 	background-color: #3887be;
-	height: 100%;
 }
 .form {
 	padding-top: 2em;
@@ -42,14 +39,8 @@ h4 {
 }
 .blog-sidebar {
 	padding-top: 4em;
-	padding-left: 5em;
-	height: 100%;
-	display: inline-block;
-	border-width: 3em;
-	background-color: gray;
-}
-body {
-	height: 100vh;
+	border-color: red;
+	border-width: 4px;
 }
 #air-in {
 	float: left;
