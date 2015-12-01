@@ -42,14 +42,13 @@ h4 {
 }
 .blog-sidebar {
 	padding-top: 4em;
-	padding-left: 5em;
+	border-color: red;
+	border-width: 4px;
 	height: 100%;
 	display: inline-block;
-	border-width: 3em;
-	background-color: gray;
 }
 body {
-	height: 100vh;
+	height: 100%;
 }
 #air-in {
 	float: left;
@@ -61,4 +60,12 @@ body {
 .form-control {
 	background-color: #ebeff2;
 	width: 25%;
+}
+.blog-sidebar {
+	border-width: 3em;
+	background-color: gray;
+}
+.col-md-3 {
+	height: 100%;
+	width: 100%;
 }
