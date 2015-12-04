@@ -10,6 +10,7 @@ button, input, optgroup, select, textarea  {
 }
 body {
 	background-color: #3887be;
+	background-image: url("../images/004.jpg");
 	height: 100%;
 }
 .form {
@@ -28,14 +29,19 @@ header {
 	font-family: verdana;
 	font-size: 2em;
 	padding-top: 1em;
+	padding-bottom: 1em;
 	text-align: center;
 }
+
 h3 {
 	color: #404040;
 }
 h4 {
 	font-family: arial;
-	color: #C3CED6;
+	color: black;
+}
+body > h4 {
+	color: black;
 }
 .main {
 	padding-top: 4em;
